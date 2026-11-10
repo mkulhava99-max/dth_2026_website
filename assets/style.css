@@ -23,7 +23,7 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 300;
-  background-color: #f9f3c1;
+  background-color: #dcdcff;
 }
 
 /* some of HTML elements come with element specific style, we want to remove it so we can style them ourselves */
@@ -184,11 +184,6 @@ footer {
 }
 
 /* markdown content */
-
-/* markdown cannot add classes, so the first paragraph after a headline gets the light style this way */
-main h2 + p {
-  font-weight: 200;
-}
 
 /* the resets at the top remove link colours and bullets everywhere, so we give them back inside main */
 main a {
