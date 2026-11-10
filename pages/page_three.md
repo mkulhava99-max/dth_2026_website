@@ -15,11 +15,11 @@ For European Studies, it can be useful in projects that work with large text col
 5.	*Money:* Development of the open-source version is supported by HumanSignal, which also offers a paid enterprise version of the software.
 
 ### Verdict for a Thesis
-I would consider Label Studio a reliable choice for a thesis project. During my student assistant job, I worked with the software while annotating European parliamentary speeches, so I already have practical experience with it. Another advantage is that the platform supports common export formats such as JSON, CSV, COCO, and YOLO. This makes it easy to transfer the data to other tools if necessary and reduces dependence on a single platform.
+I would consider Label Studio a reliable choice for a thesis project. During my student assistant job, I worked with the software while annotating European parliamentary speeches, so I already have practical experience with it. Another advantage is that the platform supports common export formats. This makes it easy to transfer the data to other tools if necessary, and reduces dependence on a single platform.
 
 ![Label Studio 3](./assets/images/labelstudio_3.jpg) 
 
 ### Sources
-[https://github.com/HumanSignal/label-studio](https://github.com/HumanSignal/label-studio)
-[https://docs.humansignal.com/guide/get_started](https://docs.humansignal.com/guide/get_started)
+- [https://github.com/HumanSignal/label-studio](https://github.com/HumanSignal/label-studio)
+- [https://docs.humansignal.com/guide/get_started](https://docs.humansignal.com/guide/get_started)
 
