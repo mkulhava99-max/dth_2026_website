@@ -1,4 +1,4 @@
-# Pros of open source
+# ADVANTAGES OF OPEN SOURCE
 
 ## *What are the advantages of open source software?*
 
