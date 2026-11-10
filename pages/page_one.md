@@ -20,4 +20,6 @@ Different groups benefit from open source in distinct ways:
 
 You can also add images from the assets folder:
 
+![Open source](./assets/images/istockphoto-1039072216-612x612.webp) 
+
 ![The beach at Skagen](./assets/images/skagen.jpg)
