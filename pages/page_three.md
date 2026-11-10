@@ -17,6 +17,8 @@ In my major, Label Studio helps prepare training datasets for machine learning m
 ### Verdict for a Thesis
 I have already worked with Label Studio at my student assistant job, where I helped coding European parliamentary speeches, and I would confidently rely on Label Studio for my thesis. Standard export formats like JSON, CSV, COCO, and YOLO mean there is zero vendor lock-in. If the project were ever abandoned, I could easily export my data and move to another tool.
 
+![Label Studio 3](./assets/images/labelstudio_3.jpg) 
+
 ### Sources
 [https://github.com/HumanSignal/label-studio](https://github.com/HumanSignal/label-studio)
 [https://docs.humansignal.com/guide/get_started](https://docs.humansignal.com/guide/get_started)

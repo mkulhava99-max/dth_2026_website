@@ -14,10 +14,11 @@ Different groups benefit from open source in distinct ways:
 -	**Municipalities and public bodies** follow the principle of "public money, public code," and spend money on specific customization rather than software monopolies.
 -	**Maintainers** can collaborate globally, solve shared technical problems, and build public digital infrastructure.
 
+![Thumbs Up](./assets/images/thumbsup.jpg)
+
 ### Sources:
 [https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/](https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/) 
 
 
-![Thumbs Up](./assets/images/thumbsup.jpg)
 
 
