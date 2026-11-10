@@ -18,8 +18,6 @@ Different groups benefit from open source in distinct ways:
 [https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/](https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/) 
 
 
-You can also add images from the assets folder:
-
 ![Thumbs Up](./assets/images/thumbsup.jpg)
 
 ![The beach at Skagen](./assets/images/skagen.jpg)
