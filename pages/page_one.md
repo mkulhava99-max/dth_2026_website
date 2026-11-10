@@ -20,5 +20,4 @@ Different groups benefit from open source in distinct ways:
 
 ![Thumbs Up](./assets/images/thumbsup.jpg)
 
-![The beach at Skagen](./assets/images/skagen.jpg)
 
