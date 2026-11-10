@@ -1,6 +1,6 @@
 # Pros of open source
 
-## What are the advantages of open source software?
+## *What are the advantages of open source software?*
 
 When people talk about open-source software, the first thing mentioned is usually that it costs nothing to download. While zero price is a huge benefit for students and small organizations, the real strength of open source comes from having full access to the source code.
 
@@ -19,7 +19,5 @@ Different groups benefit from open source in distinct ways:
 
 
 You can also add images from the assets folder:
-
-![Open source](./assets/images/istockphoto-1039072216-612x612.webp) 
 
 ![The beach at Skagen](./assets/images/skagen.jpg)
