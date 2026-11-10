@@ -23,7 +23,7 @@ body {
   padding: 0;
   margin: 0;
   font-weight: 300;
-  background-color: #fef181;
+  background-color: #f9f3c1;
 }
 
 /* some of HTML elements come with element specific style, we want to remove it so we can style them ourselves */
