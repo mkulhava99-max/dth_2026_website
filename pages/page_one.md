@@ -2,8 +2,6 @@
 
 ## What are the advantages of open source software?
 
-
-
 When people talk about open-source software, the first thing mentioned is usually that it costs nothing to download. While zero price is a huge benefit for students and small organizations, the real strength of open source comes from having full access to the source code.
 
 Because anyone can read and inspect the code, users do not have to blindly trust a software vendor. Security researchers and developers can verify exactly what an application is doing, ensuring there are no hidden tracking tools, privacy violations, or security holes. Code access also lets users modify the software to fit their exact needs. If a feature is missing or broken, a developer can fix or add it themselves instead of waiting for a commercial vendor update.
@@ -19,13 +17,6 @@ Different groups benefit from open source in distinct ways:
 ### Sources:
 [https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/](https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/) 
 
-
-Everything you see here is written in the file **pages/page_one.md**. Change the text there, save, and reload the page. You can use **bold**, *italics*, [links](https://www.sdu.dk) and lists:
-
-- one item
-- another item
-
-### A smaller headline
 
 You can also add images from the assets folder:
 
