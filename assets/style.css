@@ -1,7 +1,7 @@
 /* root setup */
 
-/* here we import the Lexend font from Google fonts. You can browse other fonts at https://fonts.google.com/*/
-@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+/* here we import the Oswald font from Google fonts. You can browse other fonts at https://fonts.google.com/*/
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
 
 /* here we set up project specific variables - this way we can keep the style consistent across all pages and elements. You can also create variable names for specific fonts and other elements */
 :root {
@@ -13,7 +13,7 @@
   --purple: #ceaeea;
   --red: #f22c43;
   --yellow: #fddd0d;
-  --projectFont: Lexend, Arial, sans-serif;
+  --projectFont: Oswald, Arial, sans-serif;
 }
 
 /* individual element styles */
