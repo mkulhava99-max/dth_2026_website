@@ -34,31 +34,31 @@
       </section>
       <p id="charCount" class="lightText"></p>
       <section>
-        <div id="carouselMain" class="flex">
+        <div id="carouselLayout">
+          <button id="carouselBtnLeft" class="carouselBtn" type="button" aria-label="Previous article" title="Previous article">&#x2B9C;</button>
+          <div id="carouselMain" class="flex">
           <article class="carouselArt outOfFocusArt" data-artID="1">
-            <h3>Advantages of open source</h3>
+            <h3><button class="carouselHeading" type="button" aria-pressed="false">Advantages of open source</button></h3>
             <a href="./index.html?page=page_one">
               <img src="./assets/images/womaninstem.jpg" alt="Advantages of open source" />
             </a>
             <p>The real strength of open source comes from having full access to the source code.</p>
           </article>
           <article class="carouselArt inFocusArt" data-artID="2">
-            <h3>Disadvantages of open source</h3>
+            <h3><button class="carouselHeading" type="button" aria-pressed="true">Disadvantages of open source</button></h3>
             <a href="./index.html?page=page_two">
               <img src="./assets/images/maninstem.jpg" alt="Disadvantages of open source" />
             </a>
             <p>A crucial disadvantage of open source is the lack of dedicated support and maintenance.</p>
           </article>
           <article class="carouselArt outOfFocusArt" data-artID="3">
-            <h3>Label Studio</h3>
+            <h3><button class="carouselHeading" type="button" aria-pressed="false">Label Studio</button></h3>
             <a href="./index.html?page=page_three">
               <img src="./assets/images/labelstudio_2.jpg" alt="Label Studio" />
             </a>
             <p>Label Studio is a powerful tool for data labeling and annotation.</p>
           </article>
-        </div>
-        <div id="carouselBtnContainer" class="flex">
-          <button id="carouselBtnLeft" class="carouselBtn" type="button" aria-label="Previous article" title="Previous article">&#x2B9C;</button>
+          </div>
           <button id="carouselBtnRight" class="carouselBtn" type="button" aria-label="Next article" title="Next article">&#x2B9E;</button>
         </div>
       </section>

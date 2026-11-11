@@ -23,74 +23,34 @@ themeToggle.addEventListener("click", () => {
 
 let artInFocus;
 
-articles.forEach((art) => {
-  if (!art.classList.contains("outOfFocusArt")) {
-    return (artInFocus = art.dataset.artid);
-  }
-});
-
 const featureArt = (i) => {
+  artInFocus = String(i);
   articles.forEach((art) => {
-    if (art.dataset.artid == i) {
-      art.classList.remove("outOfFocusArt");
-      art.classList.add("inFocusArt")
-    } else {
-      art.classList.add("outOfFocusArt");
-      art.classList.remove("inFocusArt")
-    }
+    const isInFocus = art.dataset.artid === artInFocus;
+    art.classList.toggle("inFocusArt", isInFocus);
+    art.classList.toggle("outOfFocusArt", !isInFocus);
+    art.querySelector(".carouselHeading").setAttribute("aria-pressed", isInFocus);
   });
+
+  btnLeft.disabled = artInFocus === "1";
+  btnLeft.classList.toggle("btnDisabled", btnLeft.disabled);
+  btnRight.disabled = artInFocus === String(articles.length);
+  btnRight.classList.toggle("btnDisabled", btnRight.disabled);
 };
 
-const moveCarousel = (e, direction) => {
-  console.log(typeof artInFocus);
-  console.log(artInFocus);
-  switch (parseInt(artInFocus)) {
-    case 1:
-      if (direction == "next") {
-        artInFocus = parseInt(artInFocus) + 1;
-        console.log(typeof artInFocus);
-        console.log(artInFocus);
-        artInFocus = artInFocus.toString();
-        featureArt(artInFocus);
-        btnLeft.classList.remove("btnDisabled");
-        btnLeft.removeAttribute("disabled");
-      }
-      break;
-    case 2:
-      if (direction == "prev") {
-        artInFocus = parseInt(artInFocus) - 1;
-        console.log(typeof artInFocus);
-        console.log(artInFocus);
-        artInFocus = artInFocus.toString();
-        e.srcElement.setAttribute("disabled", "");
-        e.srcElement.classList.add("btnDisabled");
-        featureArt(artInFocus);
-      } else if (direction == "next") {
-        artInFocus = parseInt(artInFocus) + 1;
-        console.log(typeof artInFocus);
-        console.log(artInFocus);
-        artInFocus = artInFocus.toString();
-        e.srcElement.setAttribute("disabled", "");
-        e.srcElement.classList.add("btnDisabled");
-        featureArt(artInFocus);
-      }
-      break;
-    case 3:
-      if (direction == "prev") {
-        artInFocus = parseInt(artInFocus) - 1;
-        console.log(typeof artInFocus);
-        console.log(artInFocus);
-        artInFocus = artInFocus.toString();
-        featureArt(artInFocus);
-        btnRight.classList.remove("btnDisabled");
-        btnRight.removeAttribute("disabled");
-      }
-      break;
-  }
+const moveCarousel = (direction) => {
+  const nextArticle = Number(artInFocus) + (direction === "next" ? 1 : -1);
+  featureArt(nextArticle);
 };
 
 // only pages that have a carousel get the buttons wired up
 if (btnLeft && btnRight) {
-  btnLeft.addEventListener("click", (e) => moveCarousel(e, "prev"));
-  btnRight.addEventListener("click", (e) => moveCarousel(e, "next"));
+  articles.forEach((art) => {
+    const headingButton = art.querySelector(".carouselHeading");
+    headingButton.addEventListener("click", () => featureArt(art.dataset.artid));
+  });
+
+  btnLeft.addEventListener("click", () => moveCarousel("prev"));
+  btnRight.addEventListener("click", () => moveCarousel("next"));
+  featureArt(articles.find((art) => art.classList.contains("inFocusArt")).dataset.artid);
 }

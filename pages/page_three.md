@@ -1,5 +1,5 @@
 
-# LABEL STUDIO
+# Label Studio
 
 ## *Why Label Studio is a useful open source project for European Studies? 📚*
 
