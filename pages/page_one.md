@@ -17,6 +17,6 @@ Different groups benefit from open source softwares in distinct ways:
 ### Sources:
 - [https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/](https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/) 
 
+- [https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/](https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/)
 
-
-
+- [https://www.suse.com/topics/understanding-open-source/](https://www.suse.com/topics/understanding-open-source/)
