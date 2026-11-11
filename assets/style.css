@@ -55,11 +55,27 @@ section {
 /* navigation bar */
 #navBar {
   justify-content: space-between;
+  align-items: center;
+  min-height: 72px;
+  margin: 0;
+  padding: 0 10%;
+  box-sizing: border-box;
+  background-color: var(--white);
+  border-bottom: 1px solid var(--light-blue);
 }
 
 #navBar nav {
   display: flex;
   align-items: center;
+  gap: 20px;
+}
+
+#navBar ul {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
 }
 
 #themeToggle {
@@ -89,7 +105,7 @@ section {
 
 .navLink,
 .footerLinks {
-  margin-left: 20px;
+  margin-left: 0;
   transition: ease-in-out, 0.3s;
 }
 
@@ -97,9 +113,35 @@ section {
   color: var(--green);
   cursor: pointer;
 }
+
+#navBar>a {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
 .navLink:hover {
   color: var(--blue);
   cursor: pointer;
+}
+
+.navLink:focus-visible {
+  outline: 2px solid var(--blue);
+  outline-offset: 4px;
+}
+
+@media (max-width: 760px) {
+  #navBar {
+    flex-direction: column;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 5%;
+  }
+
+  #navBar nav,
+  #navBar ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
 
 /* hero banner */

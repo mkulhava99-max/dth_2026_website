@@ -1,4 +1,4 @@
-# DISADVANTAGES OF OPEN SOURCE
+# Disadvantages of open source software
 
 ## *What are the disadvantages of open source software?*
 
