@@ -9,7 +9,7 @@ For European Studies, it can be useful in projects that work with large text col
 
 **The Five Repository Checks**
 1.	💡 *Licence:* Label Studio is released under the Apache 2.0 licence. This means that users are free to use, modify, and distribute the software, including for commercial purposes.
-2.	👁️👁️ *Last change:* The GitHub repository (HumanSignal/labelStudio) is actively maintained. Recent commits show that development is ongoing and that new updates are regularly being added.
+2.	🧩 *Last change:* The GitHub repository (HumanSignal/labelStudio) is actively maintained. Recent commits show that development is ongoing and that new updates are regularly being added.
 3.	🫂 *People:* The project has a large user base and receives contributions from both HumanSignal and the wider open-source community.
 4.	🕵️ *Questions:* Users can ask questions and report issues through GitHub. There is also an active Slack community where users can discuss problems and share solutions.
 5.	💰 *Money:* Development of the open-source version is supported by HumanSignal, which also offers a paid enterprise version of the software.

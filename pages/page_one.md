@@ -10,9 +10,9 @@ Another key advantage is duration of the software and vendor independence. When 
 
 Different groups benefit from open source softwares in distinct ways:
 
-- 🔓 **Students and researchers** can get access to tools like LibreOffice without license fees and can study real production code to learn how software is built.
-- 🔓 **Municipalities and public bodies** follow the principle of "public money, public code," and spend money on specific customization rather than software monopolies.
-- 🔓 **Maintainers** can collaborate globally, solve shared technical problems, and build public digital infrastructure.
+- **Students and researchers** can get access to tools like LibreOffice without license fees and can study real production code to learn how software is built.
+- **Municipalities and public bodies** follow the principle of "public money, public code," and spend money on specific customization rather than software monopolies.
+- **Maintainers** can collaborate globally, solve shared technical problems, and build public digital infrastructure.
 
 ### Sources 📖
 - [https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/](https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/) 
