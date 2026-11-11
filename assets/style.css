@@ -181,7 +181,7 @@ h1 {
   aspect-ratio: 4 / 3;
   overflow: hidden;
   position: relative;
-  transition: ease-out, 1s;
+  transition: width 0.65s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .carouselArt::after {
@@ -196,9 +196,12 @@ h1 {
 }
 
 .carouselArt img {
+  display: block;
   width: 100%;
+  margin-inline: auto;
   aspect-ratio: 2 / 1;
   background-color: var(--light-blue);
+  transition: width 0.65s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 #carouselBtnContainer {
@@ -310,9 +313,14 @@ main img {
 }
 
 .inFocusArt img {
-  display: block;
   width: 80%;
-  margin-inline: auto;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .carouselArt,
+  .carouselArt img {
+    transition: none;
+  }
 }
 
 .btnDisabled {
