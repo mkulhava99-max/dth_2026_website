@@ -1,7 +1,7 @@
 
-# LABEL STUDIO
+# LABEL STUDIO 🏷️
 
-## *Why **Label Studio** is a useful open source project for European Studies?*
+## *Why **Label Studio** is a useful open source project for European Studies? 📚*
 
 In Data Science and Machine Learning, high-quality labelled data is essential. **Label Studio**, created by **HumanSignal**, is a data annotation tool that allows researchers to label text, audio, images, video, and time-series data in one place.
 
