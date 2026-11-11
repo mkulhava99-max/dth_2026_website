@@ -8,13 +8,13 @@ One of the biggest issues in open source today is a maintainer burnout. Many pop
 
 Open source also shifts technical responsibility directly onto the user:
 
-	🔐 **Hidden support costs:** The license is free, but organizations still pay for deployment, server hardware, user training, and custom integration.
-	🔐 **No official support:** If a proprietary tool breaks, you can call customer support or rely on a contract. With open source, you usually rely on public forums, documentation, or issue trackers.
-	🔐 **Uneven user experience:** Maintainers often prioritize code functionality over polished design, which is harder to learn for non-technical users.
+- 🔐 **Hidden support costs:** The license is free, but organizations still pay for deployment, server hardware, user training, and custom integration.
+- 🔐 **No official support:** If a proprietary tool breaks, you can call customer support or rely on a contract. With open source, you usually rely on public forums, documentation, or issue trackers.
+- 🔐 **Uneven user experience:** Maintainers often prioritize code functionality over polished design, which is harder to learn for non-technical users.
 
 From a university or municipality perspective, adopting an open source tool without internal technical staff can end up costing more in long-term maintenance than buying a commercial subscription with dedicated support.
 
-### Sources
+### Sources 📖
 - [https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/](https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/)
 
 - [https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/](https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/)
