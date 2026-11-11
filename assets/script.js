@@ -3,6 +3,23 @@
 const articles = Array.from(document.getElementsByClassName("carouselArt"));
 const btnLeft = document.getElementById("carouselBtnLeft");
 const btnRight = document.getElementById("carouselBtnRight");
+const themeToggle = document.getElementById("themeToggle");
+
+const updateThemeToggle = () => {
+  const isDarkMode = document.body.classList.contains("dark-mode");
+  themeToggle.textContent = isDarkMode ? "☀️ Light mode" : "🌙 Dark mode";
+  themeToggle.setAttribute("aria-pressed", isDarkMode);
+  themeToggle.setAttribute("aria-label", `Switch to ${isDarkMode ? "light" : "dark"} mode`);
+};
+
+document.body.classList.toggle("dark-mode", localStorage.getItem("theme") === "dark");
+updateThemeToggle();
+
+themeToggle.addEventListener("click", () => {
+  const isDarkMode = document.body.classList.toggle("dark-mode");
+  localStorage.setItem("theme", isDarkMode ? "dark" : "light");
+  updateThemeToggle();
+});
 
 let artInFocus;
 
