@@ -52,5 +52,13 @@ if (btnLeft && btnRight) {
 
   btnLeft.addEventListener("click", () => moveCarousel("prev"));
   btnRight.addEventListener("click", () => moveCarousel("next"));
-  featureArt(articles.find((art) => art.classList.contains("inFocusArt")).dataset.artid);
+
+  const pageForArticle = {
+    1: "page_one",
+    2: "page_two",
+    3: "page_three",
+    4: "page_four",
+  };
+  const initialArticle = articles.find((art) => pageForArticle[art.dataset.artid] === document.body.id);
+  featureArt(initialArticle?.dataset.artid || articles.find((art) => art.classList.contains("inFocusArt")).dataset.artid);
 }
