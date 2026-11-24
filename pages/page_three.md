@@ -20,7 +20,7 @@ I would consider Label Studio a reliable choice for a thesis project, although i
 
 ![Label Studio 3](./assets/images/labelstudio_3.jpg) 
 
-### Sources 📖
+## References
 - [https://github.com/HumanSignal/label-studio](https://github.com/HumanSignal/label-studio)
 - [https://docs.humansignal.com/guide/get_started](https://docs.humansignal.com/guide/get_started)
 - [https://sider.ai/cs/blog/ai-tools/is-label-studio-the-best-open-source-labeling-tool-a-2025-review](https://sider.ai/cs/blog/ai-tools/is-label-studio-the-best-open-source-labeling-tool-a-2025-review)

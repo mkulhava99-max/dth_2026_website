@@ -14,7 +14,7 @@ Open source also shifts technical responsibility directly onto the user:
 
 From a university or municipality perspective, adopting an open source tool without internal technical staff can end up costing more in long-term maintenance than buying a commercial subscription with dedicated support.
 
-### Sources 📖
+## References
 - [https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/](https://www.techtarget.com/news/5-advantages-and-6-disadvantages-of-open-source-software/847664/)
 
 - [https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/](https://www.freecodecamp.org/news/what-is-open-source-software-explained-in-plain-english/)
