@@ -58,6 +58,7 @@ if (btnLeft && btnRight) {
     2: "page_two",
     3: "page_three",
     4: "page_four",
+    5: "page_five",
   };
   const initialArticle = articles.find((art) => pageForArticle[art.dataset.artid] === document.body.id);
   featureArt(initialArticle?.dataset.artid || articles.find((art) => art.classList.contains("inFocusArt")).dataset.artid);
